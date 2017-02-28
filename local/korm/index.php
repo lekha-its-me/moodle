@@ -26,7 +26,7 @@ echo html_writer::start_tag('a', array('class'=>'btn btn-primary', 'href'=> new 
 echo get_string("btn_add", "local_korm");
 echo html_writer::end_tag('a');
 echo (' ');
-echo html_writer::start_tag('a', array('class'=>'btn btn-primary', 'href'=> new moodle_url("/local/korm/delete.php")));
+echo html_writer::start_tag('a', array('class'=>'btn btn-primary', 'href'=> new moodle_url("/local/korm/view_report.php")));
 echo get_string("btn_report", "local_korm");
 echo html_writer::end_tag('a');
 
